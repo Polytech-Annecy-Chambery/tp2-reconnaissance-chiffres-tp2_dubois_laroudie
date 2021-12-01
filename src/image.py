@@ -129,17 +129,3 @@ class Image:
                 pixels = pixels+1
         res = sim / pixels
         return res
-
-    #==============================================================================
-    # Methode de redimensionnement d'image
-    #==============================================================================
-    def resize(self, new_H, new_W):
-        pass
-
-
-    #==============================================================================
-    # Methode de mesure de similitude entre l'image self et un modele im
-    #==============================================================================
-    def similitude(self, im):
-        pass
-
